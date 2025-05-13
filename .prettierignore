@@ -1,0 +1,30 @@
+# Ignore artifacts:
+build
+coverage
+dist
+node_modules/
+src-tauri/target/
+src-tauri/Cargo.lock
+src-tauri/.cargo/
+src-tauri/debug/
+src-tauri/release/
+
+# 忽略 Vite 缓存目录
+.vite/
+.vite-cache/
+
+# 忽略打包/压缩后的文件
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+
+# 忽略构建配置和 lock 文件（可选）
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# 忽略 IDE 配置文件
+.idea/
+.vscode/
+

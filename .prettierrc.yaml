@@ -1,0 +1,18 @@
+# 每行最大长度
+printWidth: 100
+# 缩进空格数
+tabWidth: 4
+# 使用空格替代 tab
+useTabs: false
+# 行尾添加分号
+semi: true
+# 使用单引号
+singleQuote: true
+# 对象或数组最后一项是否添加逗号
+trailingComma: es5
+# 对象大括号内是否添加空格
+bracketSpacing: true
+# 箭头函数的参数是否总是加括号
+arrowParens: always
+# 行尾换行符格式（lf 为 Linux/Mac）
+endOfLine: lf
