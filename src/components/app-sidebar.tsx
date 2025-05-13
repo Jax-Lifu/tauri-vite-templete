@@ -70,10 +70,9 @@ export function AppSidebar() {
             <ScrollArea className="flex-1">
                 <div className="px-2 py-4 space-y-2">
                     {routes.map(({ path, icon: Icon, labelKey, exact }) => (
-                        <NavLink to={path} end={exact}>
+                        <NavLink key={path} to={path} end={exact}>
                             {({ isActive }) => (
                                 <Button
-                                    key={path}
                                     variant={isActive ? 'default' : 'ghost'}
                                     className={cn(
                                         'w-full justify-start',
